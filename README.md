@@ -22,7 +22,7 @@ Site: https://dylan7474.github.io/3d-woofer-radio/
 |---|---|---|
 | Mid-range (x2) | Visaton FR 10, 4 ohm, 4" full-range | Fs 90 Hz, Qts 0.54, Vas 2.3 L, 86 dB, 105 mm square frame. Reaches about 20 kHz. |
 | Woofer | Dayton Audio DC130B-4, 5.25", 4 ohm | Fs about 51 Hz, Qts 0.35, Vas about 12 L ([Parts Express](https://www.parts-express.com/Dayton-Audio-DC130B-4-5-1-4-Classic-Woofer-Speaker-295-307)). Alternative: Visaton W130S-4 ([Loudspeaker Database](https://loudspeakerdatabase.com/VISATON/W130S-4)). |
-| Tweeters (x2) | Small 8 ohm tweeters with a series capacitor | Not chosen yet. Ideally **vertical** (tall and narrow) like the original boombox: desirable, not essential. The FR 10 already reaches high frequencies, so the tweeters add sparkle rather than range. |
+| Tweeters (x2) | Dayton Audio AMT Mini-8, 8 ohm | About 40 mm round, 23 mm deep, 88 dB, 15 W ([Dayton](https://daytonaudio.com/product/1169/amt-mini-8-air-motion-transformer-tweeter-8-ohm)). Sits behind a tall, narrow **slot in the grille** for the vertical look of the original. Crossover point still to confirm. |
 | Amplifier | 2.1 channel TPA3116 module, 2 x 50 W + 100 W | Has volume, treble, a bass crossover (0-200 Hz) and a sub channel for 3-4 ohm loads. 12-24 V. About 35 euros from [Audiophonics](https://www.audiophonics.fr/en/amplifier-boards/module-amplificateur-tpa3116-p-22035.html). |
 | Brain | Raspberry Pi (Zero 2 W for low power) | Plays the radio. |
 | DAC | I2S DAC board (for example PCM5102 type) | The TPA3116 module takes an analog input, so the Pi needs a DAC in between. |
@@ -34,7 +34,7 @@ Each speaker gets its own sealed chamber.
 
 - **Mid pods:** with the woofer taking over at about 130-150 Hz, a sealed pod of **about 2-3 L** per FR 10 is enough (roughly 118-133 Hz roll-off). This is smaller than the 5.9 L ported pod used for a single full-range speaker.
 - **Woofer pod:** for the DC130B-4, about **4 L** sealed (roll-off near 100 Hz) or about **2.2 L** (near 130 Hz).
-- **Width:** two mids, a woofer and two tweeters side by side come to roughly 500-550 mm.
+- **Size:** two mids, a woofer and two tweeter pods side by side come to roughly 480 mm wide and at least 155 mm high (first-pass, from the real frame sizes).
 
 These come from the standard sealed-box formula and the published speaker parameters. Real enclosures, 3D-printed walls and the actual drivers will differ, so the plan is to build and measure.
 
@@ -47,7 +47,7 @@ These come from the standard sealed-box formula and the published speaker parame
 
 ## Next steps
 
-1. Pick the tweeters.
+1. Confirm the Mini-8's crossover frequency and design the simple filter for it.
 2. Check the amp with a bench test before building the cabinet.
 3. Design the cabinet and pods, and check every part against the real hardware before printing.
 

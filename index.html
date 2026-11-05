@@ -57,7 +57,7 @@ footer{margin-top:40px;color:var(--muted);font-size:.85rem}
 <tbody>
 <tr><td>Mid-range (x2)</td><td>Visaton FR 10, 4 &Omega;, 4&Prime; full-range</td><td>Fs 90 Hz, Qts 0.54, Vas 2.3 L, 86 dB, 105 mm square frame</td></tr>
 <tr><td>Woofer</td><td>Dayton Audio DC130B-4, 5.25&Prime;, 4 &Omega;</td><td>Fs about 51 Hz, Qts 0.35, Vas about 12 L (<a href="https://www.parts-express.com/Dayton-Audio-DC130B-4-5-1-4-Classic-Woofer-Speaker-295-307">Parts Express</a>)</td></tr>
-<tr><td>Tweeters (x2)</td><td>Small 8 &Omega; tweeters + series capacitor</td><td>Not chosen yet. Ideally <strong>vertical</strong> (tall and narrow), as on the original boombox: desirable, not essential. Plain round ones are fine.</td></tr>
+<tr><td>Tweeters (x2)</td><td>Dayton Audio AMT Mini-8, 8 &Omega;</td><td>About 40 mm round, 23 mm deep, 88 dB, 15 W (<a href="https://daytonaudio.com/product/1169/amt-mini-8-air-motion-transformer-tweeter-8-ohm">Dayton</a>). It sits behind a tall, narrow <strong>slot in the grille</strong>, which gives the vertical look of the original. Crossover point still to confirm.</td></tr>
 <tr><td>Amplifier</td><td>2.1 channel TPA3116 module, 2&times;50 W + 100 W</td><td>Volume, treble, bass crossover 0&ndash;200 Hz, sub for 3&ndash;4 &Omega;, 12&ndash;24 V (<a href="https://www.audiophonics.fr/en/amplifier-boards/module-amplificateur-tpa3116-p-22035.html">Audiophonics</a>)</td></tr>
 <tr><td>Brain</td><td>Raspberry Pi (Zero 2 W for low power)</td><td>Plays the radio</td></tr>
 <tr><td>DAC</td><td>I2S DAC board (PCM5102 type)</td><td>The amp takes an analog input</td></tr>
@@ -69,7 +69,7 @@ footer{margin-top:40px;color:var(--muted);font-size:.85rem}
 <ul>
 <li><strong>Mid pods:</strong> with the woofer taking over at about 130&ndash;150 Hz, a sealed pod of about <strong>2&ndash;3 L</strong> per FR 10 is enough (roll-off roughly 118&ndash;133 Hz).</li>
 <li><strong>Woofer pod:</strong> about <strong>4 L</strong> sealed (roll-off near 100 Hz) or about <strong>2.2 L</strong> (near 130 Hz).</li>
-<li><strong>Width:</strong> roughly 500&ndash;550 mm for all five speakers side by side.</li>
+<li><strong>Size:</strong> roughly 480 mm wide for all five pods side by side, and at least 155 mm high (first-pass, from the real frame sizes).</li>
 </ul>
 <p>These come from the standard sealed-box formula and published speaker parameters. Real enclosures and drivers will differ, so the plan is to build and measure.</p>
 
@@ -83,7 +83,7 @@ footer{margin-top:40px;color:var(--muted);font-size:.85rem}
 
 <h2>Next steps</h2>
 <ol>
-<li>Pick the tweeters.</li>
+<li>Confirm the Mini-8's crossover frequency and design the simple filter for it.</li>
 <li>Bench-test the amp before building the cabinet.</li>
 <li>Design the cabinet and pods, checking every part against the real hardware before printing.</li>
 </ol>
