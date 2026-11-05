@@ -33,7 +33,7 @@ Site: https://dylan7474.github.io/3d-woofer-radio/
 Each speaker gets its own sealed chamber.
 
 - **Mid pods:** with the woofer taking over at about 130-150 Hz, a sealed pod of **about 2-3 L** per FR 10 is enough (roughly 118-133 Hz roll-off). This is smaller than the 5.9 L ported pod used for a single full-range speaker.
-- **Woofer pod:** for the DC130B-4, about **4 L** sealed (roll-off near 100 Hz) or about **2.2 L** (near 130 Hz).
+- **Woofer pod (decided): 3 L sealed.** For the DC130B-4 that gives a smooth response (Qtc about 0.79) with the -3 dB point near 104 Hz. A bigger pod barely moves that point (4 L: 103 Hz, 6 L: 105 Hz), and 2.2 L saves only about 5 cm of depth at the cost of a small bump near 130 Hz. About 16-20 cm deep, in line with the mid pods, so the whole cabinet can be roughly 20 cm deep. A ported pod would reach about 58 Hz but needs about 9 L (over 50 cm deep at this width), so it is ruled out for a compact radio.
 - **Size:** two mids, a woofer and two tweeter pods side by side come to roughly 480 mm wide and at least 155 mm high (first-pass, from the real frame sizes).
 
 These come from the standard sealed-box formula and the published speaker parameters. Real enclosures, 3D-printed walls and the actual drivers will differ, so the plan is to build and measure.
