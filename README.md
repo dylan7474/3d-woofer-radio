@@ -42,7 +42,8 @@ These come from the standard sealed-box formula and the published speaker parame
 
 - Not every "2.1 TPA3116" board has a working crossover. Only buy one whose listing names the low-pass/crossover control.
 - The sub output is rated 100 W into 2 ohm; a 4 ohm woofer gets less. At 12 V the output is lower again, which is still plenty for a 5-inch woofer in a small box.
-- A 4 ohm tweeter in parallel with a 4 ohm mid would present about 2 ohm, so use 8 ohm tweeters.
+- The 8 ohm Mini-8 wired in parallel with a 4 ohm mid could present as low as about 2.7 ohm where both play, below the amp's 4 ohm rating. A series capacitor keeps the tweeter quiet at low frequencies and the mid's impedance rises at the top, so the real load should stay higher, but this must be measured before trusting it.
+- Dayton gives no recommended crossover for the Mini-8 (usable range from about 3.5-4 kHz up). Builders cross it around 5-6 kHz, and one suggests using it as a blended super-tweeter above about 10 kHz with a gentle slope. Plan: a first-order high-pass of roughly 6 kHz (a capacitor of about 3.3 uF), then adjust by ear and measurement.
 - Battery safety, heat (the amp needs ventilation) and the weight of the cabinet.
 
 ## Next steps
