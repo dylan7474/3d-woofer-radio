@@ -11,7 +11,7 @@ Site: https://dylan7474.github.io/3d-woofer-radio/
 - A wide, low, rectangular cabinet with a **black metal speaker grille** across the front, each speaker sitting in its own **pod** (a recessed section of the grille, with its own sealed chamber behind).
 - **Centre:** a 5-inch woofer in its own sealed pod.
 - **Either side of it:** a mid-range speaker in its own small sealed pod.
-- **At each end:** a small tweeter.
+- **At each end:** a tweeter that marks the end of the cabinet, one on each side.
 - A built-in rechargeable battery, so it can be carried from room to room.
 - A "luxury" build: we use parts a mass producer would probably skip.
 
