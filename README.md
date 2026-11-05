@@ -9,6 +9,7 @@ Site: https://dylan7474.github.io/3d-woofer-radio/
 ## The idea
 
 - A wide, low, rectangular cabinet with a **black metal speaker grille** across the front, each speaker sitting in its own **pod** (a recessed section of the grille, with its own sealed chamber behind).
+- The pods sit **close together** across the front, as on the original, not spread out.
 - **Centre:** a 5-inch woofer in its own sealed pod.
 - **Either side of it:** a mid-range speaker in its own small sealed pod.
 - **At each end:** a tweeter that marks the end of the cabinet, one on each side.
