@@ -21,7 +21,7 @@ Site: https://dylan7474.github.io/3d-woofer-radio/
 |---|---|---|
 | Mid-range (x2) | Visaton FR 10, 4 ohm, 4" full-range | Fs 90 Hz, Qts 0.54, Vas 2.3 L, 86 dB, 105 mm square frame. Reaches about 20 kHz. |
 | Woofer | Dayton Audio DC130B-4, 5.25", 4 ohm | Fs about 51 Hz, Qts 0.35, Vas about 12 L ([Parts Express](https://www.parts-express.com/Dayton-Audio-DC130B-4-5-1-4-Classic-Woofer-Speaker-295-307)). Alternative: Visaton W130S-4 ([Loudspeaker Database](https://loudspeakerdatabase.com/VISATON/W130S-4)). |
-| Tweeters (x2) | Small 8 ohm tweeters with a series capacitor | Not chosen yet. The FR 10 already reaches high frequencies, so the tweeters add sparkle rather than range. |
+| Tweeters (x2) | Small 8 ohm tweeters with a series capacitor | Not chosen yet. Ideally **vertical** (tall and narrow) like the original boombox: desirable, not essential. The FR 10 already reaches high frequencies, so the tweeters add sparkle rather than range. |
 | Amplifier | 2.1 channel TPA3116 module, 2 x 50 W + 100 W | Has volume, treble, a bass crossover (0-200 Hz) and a sub channel for 3-4 ohm loads. 12-24 V. About 35 euros from [Audiophonics](https://www.audiophonics.fr/en/amplifier-boards/module-amplificateur-tpa3116-p-22035.html). |
 | Brain | Raspberry Pi (Zero 2 W for low power) | Plays the radio. |
 | DAC | I2S DAC board (for example PCM5102 type) | The TPA3116 module takes an analog input, so the Pi needs a DAC in between. |
